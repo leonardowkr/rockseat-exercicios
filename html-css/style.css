@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+html{
+    background: black url(background.svg) no-repeat center center;
+    background-size: fill;
+    height: 97vh;
+    width: 100vw;
+}
+section{
+    margin-top: 56px;
+
+}
+div#foto > img{
+     width: 112px;
+     height: 112px;
+     border-radius: 50%;
+     border: 2px solid white;
+}
+div#foto{
+    display: flex;
+    justify-content: center;
+}
+li{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.378);
+    gap: 16px;
+}
+ul{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
